@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <div id="subHeader_3" class="form-subHeader">
+            21/08/2022 22:18 Prova
+          </div>
+        <h1 ALIGN="CENTER">Prova de Conhecimentos Gerais</h1>
+    </head>
+    <label class="form-label form-label-top" align="center" id="label_5" for="first_5">
+        Responda todas as questões, utilize rascunhos em papel para realizar os cálculos. Os rascunhos serão recolhidos pela professora após a quarentena.
+    </label>
+    <body>
+        <form>
+            <fieldset>
+                <legend>
+                    <h3>Informações do aluno</h3>
+                </legend>
+                <input type="nome" name="nome" placeholder="Digite o seu nome"><br><br>
+                <input type="numeropessoas" name="numeropessoas" placeholder="N° de pessoas no grupo"><br><br>
+                <input type="email" name="email" placeholder="Digite o seu email"><br><br>
+                Data de Nascimento <br> <input type="datadenascimento" name="datadenascimento" placeholder="dd/mm/aaaa"><br><br>
+                Digite uma senha para acessar os dados da pesquisa posteriormente: <br>
+                <input type="senha" name="senha" type="password" placeholder="Digite uma senha"><br><br>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>
+                    <h3>Matemática</h3>
+                </legend>
+                3 + 3 = <input type="mtm1" name="mtm1" placeholder=""><br>
+                10 / 3 = <input type="mtm2" name="mtm2" placeholder=""><br>
+                5 * 2 = <input type="mtm3" name="mtm3" placeholder=""><br>
+                Essa tarefa foi difícil? <input type="range" id="range" name="range" min="0" max="100" value="50">
+                <p id="range-value"></p> <br>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>
+                    <h3>Opinião quanto a utilização</h3>
+                </legend>
+                <img src="https://www.bing.com/images/blob?bcid=TtpOLHau8rMEE0IY41iP2BFohThO.....xQ" alt="Portugues" id="ptg">
+                <form>
+                    <p>Na frase: "Eu sou bonito" o sujeito é</p>
+                    <input type="radio" name="bradpitt" value="bradpitt">Brad Pitt<br>
+                    <input type="radio" name="joaodapadaria" value="joaodapadaria">João da Padaria<br>
+                    <input type="radio" name="vocemesmo" value="vocemesmo">Você mesmo<br>
+                    <input type="radio" name="meuspais" value="meuspais">Meus pais<br>
+                    <input type="radio" name="eu" value="eu">Eu<br>
+                </form>
+                <br>
+                <form>
+                    Complete a frase: "Filho de peixe, peixinho ___"<br>
+                    <input type="checkbox" name="e" value="e">É<br>
+                    <input type="checkbox" name="tem" value="tem">tem<br>
+                    <input type="checkbox" name="verde" value="verde">verde<br>
+                    <input type="checkbox" name="bonito" value="bonito">bonito<br>
+                    <input type="checkbox" name="maria" value="maria">Maria<br>
+                </form>
+
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>
+                    <h3>Dê uma nota para sua professora:</h3>
+                </legend>
+                Sua professora explica bem a matéria? <br> <input type="range" id="range" name="range" min="0" max="100" value="50">
+                <p id="range-value"></p>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>
+                    <h3>Opiniões</h3>
+                </legend>
+                <form>Digite a sua opinião sobre a disciplina</form>
+                <br>
+                <textarea id="msg" name="msg" placeholder=" "></textarea>
+            </fieldset>
+            <br>
+            <input type="submit" value="Gravar respostas">
+        </form>
+    </body>
+</html>
